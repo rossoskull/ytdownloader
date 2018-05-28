@@ -1,6 +1,6 @@
-#Youtube Downloader App
+# Youtube Downloader App
 
-##How to use:
+## How to use:
 Follow these steps to dowload a playlist:
 -Copy playlist url
 -Start ytdownloader.exe and paste the url
