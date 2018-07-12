@@ -16,7 +16,7 @@ def main():
 		for link in soup.find_all('a'):
 			x = str(link.get('href'))
 			if "watch" in x:
-				megastr += 'youtube-dl https://www.youtube.com/' + x + "\n"
+				megastr += 'youtube-dl \"https://www.youtube.com' + x + '\"\n'
 		megastr += "pause"
 		print("Generating batch file...")
 		fw = open('download.bat', 'w')
