@@ -1,4 +1,7 @@
 # Youtube Playlist Downloader
-Executables available in the 'dist' directory.
+In order to understand BeautifulSoup 4, and work with OS commands, I created this python script, so that downloading playlist becomes easy.
 
-Create an issue if you have an idea and would like to contribute.
+#### How to use?
+The executables are available in the `dist` directory, place them in the target directory, and run the ytdownloader script.
+
+Please note that the youtube-dl.exe is necessary for this to work.
